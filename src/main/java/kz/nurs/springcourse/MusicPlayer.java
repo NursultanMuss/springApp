@@ -6,10 +6,11 @@ import java.util.List;
 public class MusicPlayer {
 
     private String name;
-    private String volume;
+    private int volume;
     private List<Music> musicList = new ArrayList<>();
 
     public MusicPlayer(){}
+
 
     public void setMusicList(List<Music> musicList) {
         this.musicList = musicList;
@@ -23,11 +24,11 @@ public class MusicPlayer {
         this.name = name;
     }
 
-    public String getVolume() {
+    public int getVolume() {
         return volume;
     }
 
-    public void setVolume(String volume) {
+    public void setVolume(int volume) {
         this.volume = volume;
     }
 
